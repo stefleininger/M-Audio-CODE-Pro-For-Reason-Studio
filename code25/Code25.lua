@@ -46,6 +46,158 @@ local COLOR_YELLOW  = 0x06
 local COLOR_WHITE   = 0x07
 
 --------------------------------------------------
+-- LED BUTTONS TABLE (BUTTONS 1 TO 5)
+-- Remplacer 0x?? par les adresses relevées sur le Code 25
+--------------------------------------------------
+
+local LED_BUTTONS = {
+    {
+        name = "Button 1",
+        off_hi = 0x01, off_lo = 0x6C,
+        on_hi  = 0x01, on_lo  = 0x6D,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 2",
+        off_hi = 0x01, off_lo = 0x7A,
+        on_hi  = 0x01, on_lo  = 0x7B,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 3",
+        off_hi = 0x02, off_lo = 0x08,
+        on_hi  = 0x02, on_lo  = 0x09,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 4",
+        off_hi = 0x02, off_lo = 0x16,
+        on_hi  = 0x02, on_lo  = 0x17,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 5",
+        off_hi = 0x02, off_lo = 0x24,
+        on_hi  = 0x02, on_lo  = 0x25,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 6",
+        off_hi = 0x02, off_lo = 0x32,
+        on_hi  = 0x02, on_lo  = 0x33,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 7",
+        off_hi = 0x02, off_lo = 0x40,
+        on_hi  = 0x02, on_lo  = 0x41,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 8",
+        off_hi = 0x02, off_lo = 0x4E,
+        on_hi  = 0x02, on_lo  = 0x4F,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 9",
+        off_hi = 0x02, off_lo = 0x5C,
+        on_hi  = 0x02, on_lo  = 0x5D,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 10",
+        off_hi = 0x02, off_lo = 0x6A,
+        on_hi  = 0x02, on_lo  = 0x6B,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 11",
+        off_hi = 0x02, off_lo = 0x78,
+        on_hi  = 0x02, on_lo  = 0x79,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 12",
+        off_hi = 0x03, off_lo = 0x06,
+        on_hi  = 0x03, on_lo  = 0x07,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 13",
+        off_hi = 0x03, off_lo = 0x14,
+        on_hi  = 0x03, on_lo  = 0x15,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 14",
+        off_hi = 0x03, off_lo = 0x22,
+        on_hi  = 0x03, on_lo  = 0x23,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 15",
+        off_hi = 0x03, off_lo = 0x30,
+        on_hi  = 0x03, on_lo  = 0x31,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+    {
+        name = "Button 16",
+        off_hi = 0x03, off_lo = 0x3E,
+        on_hi  = 0x03, on_lo  = 0x3F,
+        color_on = COLOR_GREEN,
+        color_off = COLOR_OFF,
+        index = nil,
+        last_on = nil,
+    },
+}
+
+--------------------------------------------------
 -- XY ENGINE
 --
 -- Button 17 = SYNTH
@@ -98,8 +250,19 @@ local g_combi_y_index = nil
 local g_perf_x_index = nil
 local g_perf_y_index = nil
 
-local g_button1_index = nil
-local g_last_button1_on = nil
+--------------------------------------------------
+-- HELPER : RESOLVE LED BUTTON INDEXES
+--------------------------------------------------
+
+local function resolveLedButtonIndexes(items)
+    for i, item in ipairs(items) do
+        for _, btn in ipairs(LED_BUTTONS) do
+            if item.name == btn.name then
+                btn.index = i
+            end
+        end
+    end
+end
 
 --------------------------------------------------
 -- REMOTE INIT
@@ -113,11 +276,11 @@ function remote_init()
 		{name="Play Button", input="button"},
         {name="Rec Button", input="button"},
         
-        {name="Button 1", input="button"},
-        {name="Button 2", input="button"},
-        {name="Button 3", input="button"},
-        {name="Button 4", input="button"},
-        {name="Button 5", input="button"},
+        {name="Button 1", input="button", output="value"},
+        {name="Button 2", input="button", output="value"},
+        {name="Button 3", input="button", output="value"},
+        {name="Button 4", input="button", output="value"},
+        {name="Button 5", input="button", output="value"},
 		{name="Fader 1", input="value", min=0, max=127},
 		{name="Fader 2", input="value", min=0, max=127},
         {name="Fader 3", input="value", min=0, max=127},
@@ -128,11 +291,11 @@ function remote_init()
         {name="Knob 3", input="value", min=0, max=127},
         {name="Knob 4", input="value", min=0, max=127},
 
-        {name="Button 6", input="button"},
-        {name="Button 7", input="button"},
-        {name="Button 8", input="button"},
-        {name="Button 9", input="button"},
-        {name="Button 10", input="button"},
+        {name="Button 6", input="button", output="value"},
+        {name="Button 7", input="button", output="value"},
+        {name="Button 8", input="button", output="value"},
+        {name="Button 9", input="button", output="value"},
+        {name="Button 10", input="button", output="value"},
 		{name="Fader 6", input="value", min=0, max=127},
 		{name="Fader 7", input="value", min=0, max=127},
         {name="Fader 8", input="value", min=0, max=127},
@@ -143,11 +306,11 @@ function remote_init()
         {name="Knob 7", input="value", min=0, max=127},
         {name="Knob 8", input="value", min=0, max=127},
 
-        {name="Button 11", input="button"},
-        {name="Button 12", input="button"},
-        {name="Button 13", input="button"},
-        {name="Button 14", input="button"},
-        {name="Button 15", input="button"},
+        {name="Button 11", input="button", output="value"},
+        {name="Button 12", input="button", output="value"},
+        {name="Button 13", input="button", output="value"},
+        {name="Button 14", input="button", output="value"},
+        {name="Button 15", input="button", output="value"},
 		{name="Fader 11", input="value", min=0, max=127},
 		{name="Fader 12", input="value", min=0, max=127},
         {name="Fader 13", input="value", min=0, max=127},
@@ -158,7 +321,7 @@ function remote_init()
         {name="Knob 11", input="value", min=0, max=127},
         {name="Knob 12", input="value", min=0, max=127},
 
-        {name="Button 16", input="button"},
+        {name="Button 16", input="button", output="value"},
         {name="Button 17", input="button"},
         {name="Button 18", input="button"},
         {name="Button 19", input="button"},
@@ -231,11 +394,9 @@ function remote_init()
             g_perf_y_index = i
         end
 
-        if item.name == "Button 1" then
-            g_button1_index = i
-        end
-
     end
+
+    resolveLedButtonIndexes(items)
 
 	local inputs={
         {pattern="90 5B ?<???x>", name="Back Button", port=3},
@@ -318,8 +479,8 @@ function remote_init()
     remote.define_auto_inputs(inputs)
 
     setMode(MODE_SYNTH)
-    initButton1LedTest()
-    
+    initLedButtons()
+
 end
 
 --------------------------------------------------
@@ -663,54 +824,62 @@ function remote_release_from_use()
 end
 
 --------------------------------------------------
--- TEST ISOLD LED BOUTON 1 (VIA queueLed)
+-- LED BUTTONS ENGINE (VIA queueLed)
 --------------------------------------------------
 
-local BTN1_ADDR_HI = 0x01
-local BTN1_ADDR_LO = 0x6C -- Tester 0x6D si 0x6C laisse la LED rouge fixe
+local function queueButtonLedState(btn, is_on)
+    if btn.last_on == is_on then
+        return
+    end
+    btn.last_on = is_on
 
-local function queueButton1LedState(is_on)
-	if g_last_button1_on == is_on then
-		return
-	end
-	g_last_button1_on = is_on
-	local color = is_on and COLOR_GREEN or COLOR_OFF
-	queueLed(BTN1_ADDR_HI, BTN1_ADDR_LO, color)
+    local color = is_on and btn.color_on or btn.color_off
+    queueLed(btn.off_hi, btn.off_lo, color)
+    queueLed(btn.on_hi, btn.on_lo, color)
 end
 
-function initButton1LedTest()
-	g_last_button1_on = nil
-	queueButton1LedState(false)
+local function readButtonIsOn(btn)
+    if btn.index == nil then
+        return false
+    end
+    local val = remote.get_item_value(btn.index)
+    return (tonumber(val) or 0) > 0
 end
 
-local function read_button1_is_on(entry)
-	if type(entry) == "table" and entry.value ~= nil then
-		return (tonumber(entry.value) or 0) > 0
-	end
-	if g_button1_index ~= nil and remote.get_item_value ~= nil then
-		local v = remote.get_item_value(g_button1_index)
-		if v ~= nil then
-			return (tonumber(v) or 0) > 0
-		end
-	end
-	return false
+local function findLedButtonByIndex(idx)
+    for _, btn in ipairs(LED_BUTTONS) do
+        if btn.index == idx then
+            return btn
+        end
+    end
+    return nil
+end
+
+function initLedButtons()
+    for _, btn in ipairs(LED_BUTTONS) do
+        btn.last_on = nil
+        queueButtonLedState(btn, false)
+    end
 end
 
 function remote_set_state(changed_items)
-	if g_button1_index == nil or type(changed_items) ~= "table" then
-		return
-	end
+    if type(changed_items) ~= "table" then
+        return
+    end
 
-	for _, entry in ipairs(changed_items) do
-		local idx = nil
-		if type(entry) == "number" then
-			idx = entry
-		elseif type(entry) == "table" then
-			idx = entry.item or entry.item_index or entry.index
-		end
+    for _, entry in ipairs(changed_items) do
+        local idx = nil
+        if type(entry) == "number" then
+            idx = entry
+        elseif type(entry) == "table" then
+            idx = entry.item or entry.item_index or entry.index
+        end
 
-		if idx == g_button1_index then
-			queueButton1LedState(read_button1_is_on(entry))
-		end
-	end
+        if idx ~= nil then
+            local btn = findLedButtonByIndex(idx)
+            if btn ~= nil then
+                queueButtonLedState(btn, readButtonIsOn(btn))
+            end
+        end
+    end
 end
