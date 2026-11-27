@@ -1,0 +1,1462 @@
+Propellerhead Remote Mapping File					
+File Format Version	1.0.0				
+Control Surface Manufacturer	M-Audio				
+Control Surface Model	Code 25				
+Map Version	1.0.5				
+					
+//This is a remote map for the M-Audio Code 25 and Reason 14				
+					
+Scope	Propellerheads	Master Keyboard			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard		
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Aftertouch		Channel Pressure		
+Map	Sustain Pedal		Damper Pedal		
+					
+					
+Scope	Propellerheads	Reason Document			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+// Map	Back Button		Rewind		
+// Map	Forward Button		Fast Forward		
+Map	Stop Button		Stop		
+Map	Play Button		Play		
+Map	Rec Button		Record		
+					
+					
+Scope	Propellerheads	Kong Drum Designer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Back Button		Select Previous Patch		
+Map	Forward Button		Select Next Patch		
+//Map	Button 4		Select Previous Patch		
+//Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Drum 1 Level		
+Map	Fader 3		Drum 2 Level		
+Map	Fader 4		Drum 3 Level		
+Map	Fader 5		Drum 4 Level		
+Map	Fader 7		Drum 5 Level		
+Map	Fader 8		Drum 6 Level		
+Map	Fader 9		Drum 7 Level		
+Map	Fader 10		Drum 8 Level		
+Map	Fader 12		Drum 9 Level		
+Map	Fader 13		Drum 10 Level		
+Map	Fader 14		Drum 11 Level		
+Map	Fader 15		Drum 12 Level		
+Map	Fader 17		Drum 13 Level		
+Map	Fader 18		Drum 14 Level		
+Map	Fader 19		Drum 15 Level		
+Map	Fader 20		Drum 16 Level		
+Map	Knob 1		Drum 1 Pitch Offset		
+Map	Knob 2		Drum 2 Pitch Offset		
+Map	Knob 3		Drum 3 Pitch Offset		
+Map	Knob 4		Drum 4 Pitch Offset		
+Map	Knob 5		Drum 5 Pitch Offset		
+Map	Knob 6		Drum 6 Pitch Offset		
+Map	Knob 7		Drum 7 Pitch Offset		
+Map	Knob 8		Drum 8 Pitch Offset		
+Map	Knob 9		Drum 9 Pitch Offset		
+Map	Knob 10		Drum 10 Pitch Offset		
+Map	Knob 11		Drum 11 Pitch Offset		
+Map	Knob 12		Drum 12 Pitch Offset		
+Map	Knob 13		Drum 13 Pitch Offset		
+Map	Knob 14		Drum 14 Pitch Offset		
+Map	Knob 15		Drum 15 Pitch Offset		
+Map	Knob 16		Drum 16 Pitch Offset		
+Map	Button 1		Quick Sample		
+Map	Button 2		Pad 1 Mute		
+Map	Button 3		Pad 2 Mute		
+Map	Button 7		Pad 5 Mute		
+Map	Button 8		Pad 6 Mute		
+Map	Button 9		Pad 7 Mute		
+Map	Button 10		Pad 8 Mute		
+Map	Button 12		Pad 9 Mute		
+Map	Button 13		Pad 10 Mute		
+Map	Button 14		Pad 11 Mute		
+Map	Button 15		Pad 12 Mute		
+Map	Button 17		Pad 13 Mute		
+Map	Button 18		Pad 14 Mute		
+Map	Button 19		Pad 15 Mute		
+Map	Button 20		Pad 16 Mute		
+					
+					
+Scope	Propellerheads	Redrum Drum Computer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Drum 1 Level		
+Map	Fader 3		Drum 2 Level		
+Map	Fader 4		Drum 3 Level		
+Map	Fader 5		Drum 4 Level		
+Map	Fader 7		Drum 5 Level		
+Map	Fader 8		Drum 6 Level		
+Map	Fader 9		Drum 7 Level		
+Map	Fader 10		Drum 8 Level		
+Map	Fader 12		Drum 9 Level		
+Map	Fader 13		Drum 10 Level		
+Map	Knob 1		Drum 1 Pan		
+Map	Knob 2		Drum 2 Pan		
+Map	Knob 3		Drum 3 Pan		
+Map	Knob 4		Drum 4 Pan		
+Map	Knob 5		Drum 5 Pan		
+Map	Knob 6		Drum 6 Pan		
+Map	Knob 7		Drum 7 Pan		
+Map	Knob 8		Drum 8 Pan		
+Map	Knob 9		Drum 1 Pitch		
+Map	Knob 10		Drum 2 Pitch		
+Map	Knob 11		Drum 3 Pitch		
+Map	Knob 12		Drum 4 Pitch		
+Map	Knob 13		Drum 5 Pitch		
+Map	Knob 14		Drum 6 Pitch		
+Map	Knob 15		Drum 7 Pitch		
+Map	Knob 16		Drum 8 Pitch		
+Map	Button 1		Run		
+Map	Button 2		Enable Pattern Section Playback		
+Map	Button 3		Pattern Select in Bank		
+Map	Button 6		Bank Select		
+Map	Button 7		Pattern Enable		
+Map	Button 8		Shuffle		
+Map	Macro X		Drum 9 Pitch		
+Map	Macro Y		Drum 10 Pitch		
+					
+					
+Scope	Propellerheads	Dr.REX Loop Player
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Filter Env Attack		
+Map	Fader 3		Filter Env Decay		
+Map	Fader 4		Filter Env Sustain		
+Map	Fader 5		Filter Env Release		
+Map	Fader 7		Amp Env Attack		
+Map	Fader 8		Amp Env Decay		
+Map	Fader 9		Amp Env Sustain		
+Map	Fader 10		Amp Env Release		
+Map	Knob 1		Filter Env Amount		
+Map	Knob 2		Transpose		
+Map	Knob 3		Osc Env Amount		
+Map	Knob 4		Osc Octave		
+Map	Knob 5		Osc Fine Tune		
+Map	Knob 6		LFO1 Amount		
+Map	Knob 7		LFO1 Rate		
+Map	Knob 8		Pan		
+Map	Button 1		Run		
+Map	Button 2		Enable Loop Playback		
+Map	Button 3		Filter On/Off		
+Map	Button 6		Filter Mode		
+Map	Button 7		LFO Sync Enable		
+Map	Button 8		LFO1 Wave		
+Map	Button 9		LFO1 Dest		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Res		
+					
+					
+Scope	Propellerheads	Thor Polysonic Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Rotary 1		
+Map	Fader 3		Rotary 2		
+Map	Fader 4		Osc 1 And 2 Level		
+Map	Fader 5		Osc 3 Level		
+Map	Fader 7		Global Env Attack		
+Map	Fader 8		Global Env Decay		
+Map	Fader 9		Global Env Sustain		
+Map	Fader 10		Global Env Release		
+Map	Fader 12		Mod Env Delay		
+Map	Fader 13		Mod Env Attack		
+Map	Fader 14		Mod Env Decay		
+Map	Fader 15		Mod Env Release		
+Map	Fader 17		Amp Env Attack		
+Map	Fader 18		Amp Env Decay		
+Map	Fader 19		Amp Env Sustain		
+Map	Fader 20		Amp Env Release		
+Map	Knob 1		Osc 1 Semitone		
+Map	Knob 2		Osc 1 Fine Tune		
+Map	Knob 3		Filter 1 Drive		
+Map	Knob 4		Filter 1 Env Amount		
+Map	Knob 5		Filter Env Attack		
+Map	Knob 6		Filter Env Decay		
+Map	Knob 7		Filter Env Sustain		
+Map	Knob 8		Filter Env Release		
+Map	Knob 9		Filter 2 Freq		
+Map	Knob 10		Filter 2 Res		
+Map	Knob 11		Filter 2 Drive		
+Map	Knob 12		Filter 2 Env Amount		
+Map	Knob 13		Filter 3 Freq		
+Map	Knob 14		Filter 3 Res		
+Map	Knob 15		Filter 3 Drive		
+Map	Knob 16		Filter 3 Global Env Amount		
+Map	Button 1		Step Sequencer Run		
+Map	Button 2		Button 1		
+Map	Button 3		Button 2		
+Map	Button 7		Delay On		
+Map	Button 8		Delay Sync		
+Map	Button 9		Chorus On		
+Map	Button 10		Shaper On		
+Map	Macro X		Filter 1 Freq		
+Map	Macro Y		Filter 1 Res
+					
+					
+Scope	Propellerheads	SubTractor Analog Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Mod Env Attack		
+Map	Fader 3		Mod Env Decay		
+Map	Fader 4		Mod Env Sustain		
+Map	Fader 5		Mod Env Release		
+Map	Fader 7		Amp Env Attack		
+Map	Fader 8		Amp Env Decay		
+Map	Fader 9		Amp Env Sustain		
+Map	Fader 10		Amp Env Release		
+Map	Fader 12		Osc1 Wave		
+Map	Fader 13		Osc1 Octave		
+Map	Fader 14		Osc1 Semitone		
+Map	Fader 15		Osc1 Fine Tune		
+Map	Fader 17		Osc2 Wave		
+Map	Fader 18		Osc2 Octave		
+Map	Fader 19		Osc2 Semitone		
+Map	Fader 20		Osc2 Fine Tune		
+Map	Knob 1		Filter2 Freq		
+Map	Knob 2		Filter2 Res		
+Map	Knob 3		Filter Env Attack		
+Map	Knob 4		Filter Env Decay		
+Map	Knob 5		Filter Env Sustain		
+Map	Knob 6		Filter Env Release		
+Map	Knob 7		Filter Env Amount		
+Map	Knob 8		Filter Env Vel Amount		
+Map	Knob 9		Osc1 Phase Diff		
+Map	Knob 10		Osc2 Phase Diff		
+Map	Knob 11		FM Amount		
+Map	Knob 12		Noise Decay		
+Map	Knob 13		Noise Color		
+Map	Knob 14		Noise Level		
+Map	Knob 15		Portamento		
+Map	Knob 16		Polyphony		
+Map	Button 1		Osc2 On/Off		
+Map	Button 2		Noise On/Off		
+Map	Button 3		Filter2 On/Off		
+Map	Button 6		Ring Mod		
+Map	Button 7		Mod Env Invert		
+Map	Button 8		Filter Env Invert		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Res		
+					
+					
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Oscillator A Gain		
+Map	Fader 3		Oscillator A Motion		
+Map	Fader 4		Oscillator A Index		
+Map	Fader 5		Oscillator A Shift		
+Map	Fader 7		Oscillator B Gain		
+Map	Fader 8		Oscillator B Motion		
+Map	Fader 9		Oscillator B Index		
+Map	Fader 10		Oscillator B Shift		
+Map	Fader 12		Oscillator A Attack		
+Map	Fader 13		Oscillator A Decay		
+Map	Fader 14		Oscillator A Sustain		
+Map	Fader 15		Oscillator A Release		
+Map	Fader 17		Oscillator B Attack		
+Map	Fader 18		Oscillator B Decay		
+Map	Fader 19		Oscillator B Sustain		
+Map	Fader 20		Oscillator B Release		
+Map	Knob 1		Modulator A Rate		
+Map	Knob 2		Modulator B Rate		
+Map	Knob 3		Filter A Mode		
+Map	Knob 4		Filter A Env		
+Map	Knob 5		Filter Env Attack		
+Map	Knob 6		Filter Env Decay		
+Map	Knob 7		Filter Env Sustain		
+Map	Knob 8		Filter Env Release		
+Map	Knob 9		Filter B Freq		
+Map	Knob 10		Filter B Resonance		
+Map	Knob 11		Filter B Mode		
+Map	Knob 12		Filter B Env		
+Map	Knob 13		Filter Env Amount		
+Map	Knob 14		Shaper Amount		
+Map	Knob 15		Shaper Mode		
+Map	Knob 16		Spread Amount		
+Map	Button 1		Modulator A On/Off		
+Map	Button 2		Modulator B On/Off		
+Map	Button 6		Oscillator A On/Off		
+Map	Button 7		Oscillator B On/Off		
+Map	Button 8		Shaper On/Off		
+Map	Button 9		Filter A On/Off		
+Map	Button 10		Filter B On/Off		
+Map	Macro X		Filter A Freq		
+Map	Macro Y		Filter A Resonance		
+					
+					
+Scope	Propellerheads	ID8 Instrument Device
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Fader 1		Volume		
+Map	Knob 1		Pan		
+Map	Knob 2		Decay		
+Map	Button 2		Select Previous Category		
+Map	Button 3		Select Next Category		
+Map	Button 4		Select Previous Sound		
+Map	Button 5		Select Next Sound		
+Map	Macro X		Parameter 1		
+Map	Macro Y		Parameter 2		
+					
+					
+Scope	Propellerheads	NN-XT Advanced Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Volume		
+Map	Fader 2		Amp Env Attack		
+Map	Fader 3		Amp Env Decay		
+Map	Fader 4		Amp Env Release		
+Map	Fader 5		Mod Env Decay		
+Map	Knob 1		External Controller		
+Map	Button 1		Sample		
+Map	Button 2		External Controller Source		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Res		
+					
+					
+Scope	Propellerheads	NN19 Digital Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Amp Env Attack		
+Map	Fader 3		Amp Env Decay		
+Map	Fader 4		Amp Env Sustain		
+Map	Fader 5		Amp Env Release		
+Map	Fader 7		Filter Env Attack		
+Map	Fader 8		Filter Env Decay		
+Map	Fader 9		Filter Env Sustain		
+Map	Fader 10		Filter Env Release		
+Map	Knob 1		Portamento		
+Map	Knob 2		LFO Rate		
+Map	Knob 3		Filter Env Amount		
+Map	Knob 4		Osc Env Amount		
+Map	Knob 5		Sample Start		
+Map	Knob 6		Osc Octave		
+Map	Knob 7		Osc Semitone		
+Map	Knob 8		Osc Fine Tune		
+Map	Button 1		Filter On/Off		
+Map	Button 2		Filter Mode		
+Map	Button 3		Filter Env Invert		
+Map	Button 7		LFO Wave		
+Map	Button 8		LFO Dest		
+Map	Button 9		High Quality Interpolation		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Res		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.externalmidiinstrument
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		CC 1		
+Map	Fader 1		CC 7		
+Map	Fader 2		CC 10		
+Map	Fader 3		CC 11		
+Map	Fader 4		CC 12		
+Map	Fader 5		CC 13		
+Map	Fader 7		CC 16		
+Map	Fader 8		CC 17		
+Map	Fader 9		CC 18		
+Map	Fader 10		CC 19		
+Map	Knob 1		CC 70		
+Map	Knob 2		CC 72		
+Map	Knob 3		CC 73		
+Map	Knob 4		CC 75		
+Map	Knob 5		CC 76		
+Map	Knob 6		CC 77		
+Map	Knob 7		CC 78		
+Map	Knob 8		CC 79		
+Map	Button 2		Previous MIDI Channel		
+Map	Button 3		Next MIDI Channel		
+Map	Button 4		Previous MIDI Program		
+Map	Button 5		Next MIDI Program		
+Map	Macro X		CC 74		
+Map	Macro Y		CC 71		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Europa
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Back Button		Select Previous Patch		
+Map	Forward Button		Select Next Patch		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Reso		
+Map	Fader 1		Osc1 Level		
+Map	Fader 2		Osc1 Shape		
+Map	Fader 3		Osc1 Oct		
+Map	Fader 4		Osc1 Detune		
+Map	Fader 5		Osc1 Harm Amt		
+Map	Fader 6		Osc2 Level		
+Map	Fader 7		Osc2 Shape		
+Map	Fader 8		Osc2 Oct		
+Map	Fader 9		Osc2 Detune		
+Map	Fader 10		Osc2 Harm Amt		
+Map	Fader 11		Master Volume		
+Map	Fader 12		Reverb Amount		
+Map	Fader 13		Mod Effect Amount		
+Map	Fader 14		Dist Amount		
+Map	Fader 15		EQ Gain		
+Map	Fader 16		Delay Amount		
+Map	Fader 17		Amp Attack		
+Map	Fader 18		Amp Decay		
+Map	Fader 19		Amp Sustain		
+Map	Fader 20		Amp Release		
+Map	Button 1		Osc1 On		
+Map	Button 2		Osc1 Filter On		
+Map	Button 3		Osc1 Harm On		
+Map	Button 4		Osc1 Unison On		
+Map	Button 5		Osc1 To Filter		
+Map	Button 6		Osc2 On		
+Map	Button 7		Osc2 Filter On		
+Map	Button 8		Osc2 Harm On		
+Map	Button 9		Osc2 Unison On		
+Map	Button 10		Osc2 To Filter		
+Map	Button 11		Osc3 On		
+Map	Button 12		Reverb On		
+Map	Button 13		Phaser On		
+Map	Button 14		Dist On		
+Map	Button 15		Eq On		
+Map	Button 16		Delay On		
+Map	Knob 1		Osc1 Spread		
+Map	Knob 2		Osc1 Blend		
+Map	Knob 3		Osc1 Filter Freq		
+Map	Knob 4		Osc1 Filter Reso		
+Map	Knob 5		Osc2 Spread		
+Map	Knob 6		Osc2 Blend		
+Map	Knob 7		Osc2 Filter Freq		
+Map	Knob 8		Osc2 Filter Reso		
+Map	Knob 9		Osc3 Spread		
+Map	Knob 10		Osc3 Blend		
+Map	Knob 11		Osc3 Filter Freq		
+Map	Knob 12		Osc3 Filter Reso		
+Map	Knob 13		Filter Drive		
+Map	Knob 14		Portamento		
+Map	Knob 15		Amp Pan		
+Map	Knob 16		Amp Gain	
+					
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Volume		
+Map	Fader 2		Sample Level		
+Map	Fader 3		Osc Level		
+Map	Fader 4		Osc Oct		
+Map	Fader 5		Osc Mod		
+Map	Fader 6		Amp Attack		
+Map	Fader 7		Amp Decay		
+Map	Fader 8		Amp Sustain		
+Map	Fader 9		Amp Release		
+Map	Fader 10		Formant		
+Map	Fader 11		Formant Tune		
+Map	Fader 12		FFT Size		
+Map	Fader 13		Harm Snap		
+Map	Fader 14		Harm Filter		
+Map	Fader 15		Pitch Jitter		
+Map	Fader 16		Grain Length		
+Map	Fader 17		Rate-Spacing		
+Map	Fader 18		XFade		
+Map	Knob 1		Mod Rate		
+Map	Knob 2		Mod Depth		
+Map	Knob 3		Speed		
+Map	Knob 4		Jitter		
+Map	Knob 5		Position		
+Map	Knob 6		End Pos		
+Map	Knob 7		Scroll		
+Map	Knob 8		Zoom		
+Map	Knob 9		Oct		
+Map	Knob 10		Semi		
+Map	Knob 11		Tune		
+Map	Knob 12		Pitch Kbd		
+Map	Knob 13		Filter Type		
+Map	Knob 14		Filter Env2		
+Map	Knob 15		Pan Spread		
+Map	Knob 16		Rate		
+Map	Button 1		Osc On		
+Map	Button 2		Phaser On		
+Map	Button 3		Dist On		
+Map	Button 7		Eq On		
+Map	Button 8		Comp On		
+Map	Button 9		Delay On		
+Map	Button 10		Reverb On		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Reso		
+					
+Scope	Propellerhead Software	se.propellerheads.Monotone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Volume		
+Map	Fader 2		Amp Attack		
+Map	Fader 3		Amp Decay		
+Map	Fader 4		Amp Sustain		
+Map	Fader 5		Amp Release		
+Map	Fader 6		Filter Attack		
+Map	Fader 7		Filter Decay		
+Map	Fader 8		Filter Sustain		
+Map	Fader 9		Filter Release		
+Map	Fader 10		Osc Mix		
+Map	Fader 12		Osc1 Wave		
+Map	Fader 13		Osc1 Oct		
+Map	Fader 14		Osc2 Wave		
+Map	Fader 15		Osc2 Oct		
+Map	Fader 17		Noise		
+Map	Fader 18		Osc Detune		
+Map	Fader 19		Pitch LFO Amt		
+Map	Fader 20		FM Env Amt		
+Map	Knob 1		Osc1 Semi		
+Map	Knob 2		Portamento Time		
+Map	Knob 3		Filter Env Amount		
+Map	Knob 4		Filter Drive		
+Map	Knob 5		Delay Amount		
+Map	Knob 6		Chorus Amount		
+Map	Knob 7		Filter Key Amt		
+Map	Knob 8		Filter LFO Amt		
+Map	Knob 9		Chorus Rate		
+Map	Knob 10		Chorus Spread		
+Map	Knob 11		Delay Time		
+Map	Knob 12		Delay Feedback		
+Map	Knob 13		LFO Rate		
+Map	Knob 14		LFO Wave		
+Map	Knob 15		Vel To Filter		
+Map	Knob 16		Vel To Amp		
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Reso		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.DMFC			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master_Volume		
+Map	Fader 2		Drum_1_Volume		
+Map	Fader 3		Drum_2_Volume		
+Map	Fader 4		Drum_3_Volume		
+Map	Fader 5		Drum_4_Volume		
+Map	Fader 7		Drum_5_Volume		
+Map	Fader 8		Drum_6_Volume		
+Map	Fader 9		Drum_7_Volume		
+Map	Fader 10		Drum_8_Volume		
+Map	Fader 12		Drum_1_Pitch		
+Map	Fader 13		Drum_2_Pitch		
+Map	Fader 14		Drum_3_Pitch		
+Map	Fader 15		Drum_4_Pitch		
+Map	Fader 17		Drum_5_Pitch		
+Map	Fader 18		Drum_6_Pitch		
+Map	Fader 19		Drum_7_Pitch		
+Map	Fader 20		Drum_8_Pitch		
+Map	Knob 1		Master_Filter		
+Map	Knob 2		Master_Distortion		
+Map	Knob 3		Master_Pitch		
+Map	Knob 4		Master_Decay		
+Map	Knob 5		Master_Reverb		
+Map	Knob 6		Reverb_Decay		
+Map	Knob 7		Master_Delay		
+Map	Knob 8		Delay_Time		
+Map	Knob 9		Drum_1_Pan		
+Map	Knob 10		Drum_2_Pan		
+Map	Knob 11		Drum_3_Pan		
+Map	Knob 12		Drum_4_Pan		
+Map	Knob 13		Drum_5_Pan		
+Map	Knob 14		Drum_6_Pan		
+Map	Knob 15		Drum_7_Pan		
+Map	Knob 16		Drum_8_Pan
+Map	Macro X		Filter Freq		
+Map	Macro Y		Filter Res		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Volume		
+Map	Fader 2		Character		
+Map	Fader 3		Microphone and Instrument Blend		
+Map	Fader 4		Microphone 1 Type		
+Map	Fader 5		Microphone 2 Type		
+Map	Fader 7		Ambience Level		
+Map	Fader 8		Ambience Type		
+Map	Fader 9		Compression Amount		
+Map	Fader 12		Tune		
+Map	Fader 13		Tune Drift		
+Map	Fader 15		Symp Res Release Time		
+Map	Knob 1		Key Down Level		
+Map	Knob 2		Key Up Level		
+Map	Knob 3		Pedal Level		
+Map	Knob 5		EQ Hi Gain		
+Map	Knob 6		EQ Lo Gain		
+Map	Knob 7		EQ Mid Gain		
+Map	Knob 9		Env Attack		
+Map	Knob 10		Env Release		
+Map	Knob 11		Vel Response High		
+Map	Knob 12		Vel Response Low		
+Map	Button 1		EQ On/Off		
+Map	Macro X		Stereo Width		
+Map	Macro Y		Symp Res Level		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Klang
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master_Volume		
+Map	Fader 2		Filter_Attack		
+Map	Fader 3		Filter_Decay		
+Map	Fader 4		Filter_Sustain		
+Map	Fader 5		Filter_Release		
+Map	Fader 7		Amp_Attack		
+Map	Fader 8		Amp_Decay		
+Map	Fader 9		Amp_Sustain		
+Map	Fader 10		Amp_Release		
+Map	Knob 1		Chorus Amount		
+Map	Knob 2		Chorus Rate		
+Map	Knob 3		Filter_Env		
+Map	Knob 4		Filter_Type		
+Map	Knob 5		Instrument		
+Map	Knob 6		SampleStart		
+Map	Knob 7		Octave		
+Map	Knob 8		Semitune		
+Map	Knob 9		Delay Amount		
+Map	Knob 10		Reverb Amount		
+Map	Knob 11		Delay_Time		
+Map	Knob 12		Synced_Delay_Time		
+Map	Knob 13		Delay_Feedback		
+Map	Knob 14		Delay_Damp		
+Map	Knob 15		Reverb_Time		
+Map	Knob 16		Reverb_PreDelay		
+Map	Button 1		Filter_On		
+Map	Button 2		Delay_On		
+Map	Button 3		Reverb_On		
+Map	Macro X		Filter_Cutoff		
+Map	Macro Y		Filter_Reso		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master_Volume		
+Map	Fader 2		Filter_Attack		
+Map	Fader 3		Filter_Decay		
+Map	Fader 4		Filter_Sustain		
+Map	Fader 5		Filter_Release		
+Map	Fader 8		Amp_Decay		
+Map	Fader 9		Amp_Sustain		
+Map	Knob 1		Amp_Attack		
+Map	Knob 2		Amp_Release		
+Map	Knob 3		Filter_Env		
+Map	Knob 4		Filter_Type		
+Map	Knob 5		Instrument		
+Map	Knob 6		SampleStart		
+Map	Knob 7		Octave		
+Map	Knob 8		Semitune		
+Map	Knob 9		Delay_Amount		
+Map	Knob 10		Reverb_Amount		
+Map	Knob 11		Delay_Time		
+Map	Knob 12		Synced_Delay_Time		
+Map	Knob 13		Delay_Feedback		
+Map	Knob 14		Delay_Damp		
+Map	Knob 15		Reverb_Time		
+Map	Knob 16		Reverb_PreDelay		
+Map	Button 1		Filter_On		
+Map	Button 2		Delay_On		
+Map	Button 3		Reverb_On		
+Map	Macro X		Filter_Cutoff		
+Map	Macro Y		Filter_Reso		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master_Volume		
+Map	Fader 2		Filter_Attack		
+Map	Fader 3		Filter_Decay		
+Map	Fader 4		Filter_Sustain		
+Map	Fader 5		Filter_Release		
+Map	Fader 8		Amp_Decay		
+Map	Fader 9		Amp_Sustain		
+Map	Knob 1		Amp_Attack		
+Map	Knob 2		Amp_Release		
+Map	Knob 3		Filter_Env		
+Map	Knob 4		Filter_Type		
+Map	Knob 5		Instrument		
+Map	Knob 6		SampleStart		
+Map	Knob 7		Octave		
+Map	Knob 8		Semitune		
+Map	Knob 9		Delay_Amount		
+Map	Knob 10		Reverb_Amount		
+Map	Knob 11		Delay_Time		
+Map	Knob 12		Synced_Delay_Time		
+Map	Knob 13		Delay_Feedback		
+Map	Knob 14		Delay_Damp		
+Map	Knob 15		Reverb_Time		
+Map	Knob 16		Reverb_PreDelay		
+Map	Button 1		Filter_On		
+Map	Button 2		Delay_On		
+Map	Button 3		Reverb_On		
+Map	Macro X		Filter_Cutoff		
+Map	Macro Y		Filter_Reso		
+					
+					
+Scope	Propellerheads	Pulveriser			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Volume		
+Map	Fader 2		Blend		
+Map	Fader 3		Tremor to Volume		
+Map	Fader 4		Tremor to Frequency		
+Map	Fader 5		Release		
+Map	Fader 7		Tone		
+Map	Fader 8		Tremor Lag		
+Map	Fader 9		Filter Mode			
+Map	Knob 1		Filter Frequency		
+Map	Knob 2		Peak		
+Map	Knob 3		Dirt		
+Map	Knob 4		Squash		
+Map	Knob 5		Follower Threshold		
+Map	Knob 6		Follower Attack		
+Map	Knob 7		Follower Release		
+Map	Knob 8		Follower to Frequency		
+Map	Button 1		Follower Trig		
+Map	Button 2		Sync		
+Map	Button 3		Tremor Spread		
+					
+					
+Scope	Propellerheads	The Echo			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Dry/Wet Balance		
+Map	Fader 2		Roll Enabled		
+Map	Fader 3		Envelope		
+Map	Fader 4		Right Ch Time Offset		
+Map	Fader 5		Ping-Pong Pan		
+Map	Fader 7		LFO Rate		
+Map	Fader 8		Right Ch Feedback Offset		
+Map	Fader 9		Diffuse Spread		
+Map	Fader 10		Diffuse Amount		
+Map	Knob 1		Filter Frequency		
+Map	Knob 2		Filter Resonance		
+Map	Knob 3		Drive Amount		
+Map	Knob 4		Ducking		
+Map	Knob 5		Delay Time		
+Map	Knob 6		Feedback		
+Map	Knob 7		Wobble		
+Map	Knob 8		LFO Amount		
+Map	Button 1		Input Mode		
+Map	Button 2		Trig		
+Map	Button 3		Sync		
+Map	Button 6		Ping-Pong Mode		
+Map	Button 7		Drive Type		
+Map	Button 8		Diffuse On		
+Map	Button 9		Filter On							
+					
+Scope	Propellerheads	Alligator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Volume		
+Map	Fader 2		Dry Volume		
+Map	Fader 3		Dry Pan		
+Map	Fader 4		Ducking		
+Map	Fader 5		Delay Time		
+Map	Fader 6		High Pass Drive Amount		
+Map	Fader 7		High Pass Phaser Amount		
+Map	Fader 8		High Pass Delay Amount		
+Map	Fader 9		High Pass Pan		
+Map	Fader 10		High Pass Volume		
+Map	Fader 11		Band Pass Drive Amount		
+Map	Fader 12		Band Pass Phaser Amount		
+Map	Fader 13		Band Pass Delay Amount		
+Map	Fader 14		Band Pass Pan		
+Map	Fader 15		Band Pass Volume		
+Map	Fader 16		Low Pass Drive Amount		
+Map	Fader 17		Low Pass Phaser Amount		
+Map	Fader 18		Low Pass Delay Amount		
+Map	Fader 19		Low Pass Pan		
+Map	Fader 20		Low Pass Volume		
+Map	Knob 1		Pattern		
+Map	Knob 2		Resolution		
+Map	Knob 3		Shift		
+Map	Knob 4		LFO Waveform		
+Map	Knob 5		High Pass LFO Amount		
+Map	Knob 6		High Pass Frequency		
+Map	Knob 7		High Pass Resonance		
+Map	Knob 8		High Pass Env Amount		
+Map	Knob 9		Band Pass LFO Amount		
+Map	Knob 10		Band Pass Frequency		
+Map	Knob 11		Band Pass Resonance		
+Map	Knob 12		Band Pass Env Amount		
+Map	Knob 13		Low Pass LFO Amount		
+Map	Knob 14		Low Pass Frequency		
+Map	Knob 15		Low Pass Resonance		
+Map	Knob 16		Low Pass Env Amount		
+Map	Button 1		Gate 1 Trig		
+Map	Button 2		Gate 2 Trig		
+Map	Button 3		Gate 3 Trig		
+Map	Button 6		High Pass Filter On		
+Map	Button 7		Band Pass Filter On		
+Map	Button 8		Low Pass Filter On		
+Map	Button 9		Pattern Enable		
+Map	Button 10		Shuffle		
+					
+					
+Scope	Propellerheads	Scream 4 Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Damage Control		
+Map	Fader 3		Damage Type		
+Map	Fader 4		Parameter 1		
+Map	Fader 5		Parameter 2		
+Map	Fader 7		Cut Lo		
+Map	Fader 8		Cut Mid		
+Map	Fader 9		Cut Hi		
+Map	Knob 1		Body Resonance		
+Map	Knob 2		Body Scale		
+Map	Knob 3		Body Auto		
+Map	Knob 4		Body Type		
+Map	Button 1		Damage On/Off		
+Map	Button 2		Cut On/Off		
+Map	Button 3		Body On/Off		
+					
+					
+Scope	Propellerheads	BV512 Digital Vocoder			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch
+Map	Knob 1		Attack		
+Map	Knob 2		Decay		
+Map	Knob 3		Shift		
+Map	Knob 4		HF Emphasis		
+Map	Fader 1		Dry/Wet		
+Map	Fader 2		Band Level 1		
+Map	Fader 3		Band Level 2		
+Map	Fader 4		Band Level 3		
+Map	Fader 5		Band Level 4		
+Map	Fader 7		Band Level 5		
+Map	Fader 8		Band Level 6		
+Map	Fader 9		Band Level 7		
+Map	Knob 10		Band Level 8		
+Map	Fader 12		Band Level 9		
+Map	Fader 13		Band Level 10		
+Map	Fader 14		Band Level 11		
+Map	Fader 15		Band Level 12		
+Map	Fader 17		Band Level 13		
+Map	Fader 18		Band Level 14		
+Map	Fader 19		Band Level 15		
+Map	Fader 20		Band Level 16		
+Map	Button 1		Band Count		
+Map	Button 2		Vocoder/Equalizer		
+Map	Button 3		Hold		
+					
+					
+Scope	Propellerheads	RV7000 Advanced Reverb			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Dry/Wet		
+Map	Fader 2		Decay		
+Map	Fader 3		HF Damp		
+Map	Fader 4		Hi EQ		
+Map	Knob 1		Soft Knob 1		
+Map	Knob 2		Soft Knob 2		
+Map	Knob 3		Soft Knob 3		
+Map	Knob 4		Soft Knob 4		
+Map	Knob 5		Soft Knob 5		
+Map	Knob 6		Soft Knob 6		
+Map	Knob 7		Soft Knob 7		
+Map	Knob 8		Soft Knob 8		
+Map	Button 2		EQ On/Off		
+Map	Button 3		Gate On/Off		
+					
+					
+Scope	Propellerheads	Neptune Pitch Adjuster			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend		
+Map	Modulation		Mod Wheel		
+Map	Fader 1		Pitched Signal Level		
+Map	Fader 2		Voice Synth Level		
+Map	Fader 3		Pitch Bend Range		
+Map	Fader 4		Vibrato Rate		
+Map	Fader 7		Scale Memory		
+Map	Fader 8		Catch Zone		
+Map	Fader 9		Semitones		
+Map	Fader 10		Cent		
+Map	Knob 1		Correction Speed		
+Map	Knob 2		Preserve Expression		
+Map	Knob 3		Formant Shift		
+Map	Button 1		Enabled		
+Map	Button 2		Pitch Adjust On/Off		
+Map	Button 3		Transpose On/Off		
+Map	Button 4		Formant On/Off		
+Map	Button 6		Low Freq Input		
+Map	Button 7		Wide Vibrato		
+Map	Button 8		Live Mode		
+Map	Button 9		MIDI Destination		
+					
+					
+Scope	Propellerheads	MClass Equalizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Low Shelf Frequency		
+Map	Fader 3		Low Shelf Gain		
+Map	Fader 4		Parametric 1 Frequency		
+Map	Fader 5		Parametric 1 Gain		
+Map	Fader 7		Parametric 2 Frequency		
+Map	Fader 8		Parametric 2 Gain		
+Map	Fader 9		Hi Shelf Frequency		
+Map	Fader 10		Hi Shelf Gain		
+Map	Knob 1		Low Shelf Q		
+Map	Knob 2		Parametric 1 Q		
+Map	Knob 3		Parametric 2 Q		
+Map	Knob 4		Hi Shelf Q		
+Map	Button 1		Low Cut Enable		
+Map	Button 2		Low Shelf Enable		
+Map	Button 3		Parametric 1 Enable		
+Map	Button 4		Parametric 2 Enable		
+Map	Button 5		Hi Shelf Enable		
+					
+					
+Scope	Propellerheads	MClass Compressor			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Input Gain		
+Map	Fader 2		Output Gain		
+Map	Knob 1		Threshold		
+Map	Knob 2		Ratio		
+Map	Knob 3		Attack		
+Map	Knob 4		Release		
+Map	Button 1		Soft Knee		
+Map	Button 2		Sidechain Solo		
+Map	Button 3		Adapt		
+					
+					
+Scope	Propellerheads	MClass Maximizer			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Input Gain		
+Map	Fader 2		Output Gain		
+Map	Fader 3		Soft Clip Amount		
+Map	Button 1		Limiter Enable		
+Map	Button 2		Look Ahead Enable		
+Map	Button 3		Attack Speed		
+Map	Button 4		Release Speed		
+Map	Button 5		Soft Clip Enable		
+					
+					
+Scope	Propellerheads	MClass Stereo Imager			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Low Width		
+Map	Fader 2		X-Over Frequency		
+Map	Fader 3		High Width		
+Map	Button 2		Solo Mode		
+Map	Button 3		Separate Out Mode		
+					
+					
+Scope	Propellerheads	RV-7 Digital Reverb			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Dry/Wet		
+Map	Fader 2		Algorithm		
+Map	Fader 3		Size		
+Map	Fader 4		Decay		
+Map	Fader 5		Damping		
+Map	Button 1		Enabled		
+					
+					
+Scope	Propellerheads	DDL-1 Digital Delay Line			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Dry/Wet Balance		
+Map	Fader 2		DelayTime (steps)		
+Map	Fader 3		DelayTime (ms)		
+Map	Fader 4		Feedback		
+Map	Fader 5		Pan		
+Map	Button 1		Enabled		
+Map	Button 2		Unit		
+Map	Button 3		Step Length		
+					
+					
+Scope	Propellerheads	D-11 Foldback Distortion			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Amount		
+Map	Fader 3		Foldback		
+Map	Button 1		Enabled		
+					
+					
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Frequency		
+Map	Fader 3		Resonance		
+Map	Fader 4		Env Amount		
+Map	Fader 5		Velocity		
+Map	Knob 1		Attack		
+Map	Knob 2		Decay		
+Map	Knob 3		Sustain		
+Map	Knob 4		Release		
+Map	Button 1		Enabled		
+Map	Button 2		Mode		
+					
+					
+Scope	Propellerheads	CF-101 Chorus/Flanger			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Delay		
+Map	Fader 3		Feedback		
+Map	Fader 4		Rate		
+Map	Fader 5		Modulation Amount		
+Map	Button 1		Enabled		
+Map	Button 2		LFO Sync Enable		
+Map	Button 3		Send/Insert Mode		
+					
+					
+Scope	Propellerheads	PH-90 Phaser			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Frequency		
+Map	Fader 3		Split		
+Map	Fader 4		Width		
+Map	Knob 1		Rate		
+Map	Knob 2		Frequency Modulation		
+Map	Knob 3		Feedback		
+Map	Button 1		Enabled		
+Map	Button 2		LFO Sync Enable		
+					
+					
+Scope	Propellerheads	UN-16 Unison			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Dry/Wet		
+Map	Fader 2		Detune		
+Map	Button 1		Enabled		
+Map	Button 2		Voice Count		
+					
+					
+Scope	Propellerheads	COMP-01 Compressor/Limiter			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Ratio		
+Map	Fader 3		Threshold		
+Map	Fader 4		Attack		
+Map	Fader 5		Release		
+Map	Button 1		Enabled		
+					
+					
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		Filter A Freq		
+Map	Fader 3		Filter A Q		
+Map	Fader 4		Filter A Gain		
+Map	Knob 1		Filter B Freq		
+Map	Knob 2		Filter B Q		
+Map	Knob 3		Filter B Gain		
+Map	Button 1		Enabled		
+Map	Button 2		Filter B On/Off		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Quartet			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch
+Map	Button 5		Select Next Patch
+
+Map	Fader 1		Chorus DryWet
+Map	Fader 2		BBD DryWet
+Map	Fader 3		FFT DryWet
+Map	Fader 4		Grain DryWet
+
+Map	Fader 6		Chorus Width
+Map	Fader 7		BBD Width
+Map	Fader 8		FFT Width
+Map	Fader 9		Grain Width
+
+Map	Knob 1		Chorus Delay
+Map	Knob 2		Chorus Depth
+Map	Knob 3		Chorus Rate
+Map	Knob 4		Chorus Feedback
+
+Map	Knob 5		BBD Delay
+Map	Knob 6		BBD Depth
+Map	Knob 7		BBD Rate
+Map	Knob 8		BBD Noise
+
+Map	Knob 9		FFT Size
+Map	Knob 10		FFT Depth
+Map	Knob 11		FFT Start
+Map	Knob 12		FFT End
+
+Map	Knob 13		Grain Size
+Map	Knob 14		Grain Depth
+Map	Knob 15		Grain Jitter
+Map	Knob 16		Grain Density
+
+Map	Button 2		Effect Select
+Map	Button 3		Grain Phase	
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Sweeper			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Volume		
+Map	Fader 2		Spread		
+Map	Fader 3		DryWet		
+Map	Fader 4		Feedback		
+Map	Knob 1		Freq		
+Map	Knob 2		Reso		
+Map	Knob 3		Filter Drive		
+Map	Knob 4		Bandwidth		
+Map	Knob 5		LFO Freq Mod		
+Map	Knob 6		Env Freq Mod		
+Map	Knob 7		LFO Amp Mod		
+Map	Knob 8		Env Amp Mod		
+Map	Button 1		Type		
+Map	Button 2		Polarity		
+Map	Button 3		Mute Dry		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Gain		
+Map	Fader 2		Bass		
+Map	Fader 3		Mid		
+Map	Fader 4		Treble		
+Map	Fader 5		Poweramp Gain		
+Map	Knob 1		Volume		
+Map	Knob 2		Gate		
+Map	Knob 3		Amp Switch		
+Map	Knob 4		Cab Switch		
+Map	Button 1		Enabled		
+Map	Button 2		Boost		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Drive		
+Map	Fader 2		Bass		
+Map	Fader 3		Middle		
+Map	Fader 4		Mid Freq		
+Map	Fader 5		Treble		
+Map	Knob 1		Volume		
+Map	Knob 3		Amp Switch		
+Map	Knob 4		Cab Switch		
+Map	Button 1		Enabled		
+Map	Button 2		Ultra Lo		
+Map	Button 3		Ultra Hi		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Synchronous			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch		
+Map	Fader 1		Master Level		
+Map	Fader 2		Filter Type		
+Map	Fader 3		Delay Time		
+Map	Fader 4		Delay Synched Time		
+Map	Fader 5		Filter Lag		
+Map	Fader 6		Dist Type		
+Map	Fader 7		Reverb Decay		
+Map	Fader 8		Reverb Size		
+Map	Fader 9		Reverb Damp		
+Map	Knob 1		Filter Freq		
+Map	Knob 2		Filter Reso		
+Map	Knob 3		Dist Amount		
+Map	Knob 4		Dist Character		
+Map	Knob 5		Delay Amount		
+Map	Knob 6		Delay Feedback		
+Map	Knob 7		Reverb Amount		
+Map	Knob 8		Level		
+Map	Button 1		Delay SendReturn		
+Map	Button 2		Reverb SendReturn		
+Map	Button 3		Level InOut		
+Map	Button 6		Dist On		
+Map	Button 7		Filter On		
+Map	Button 8		Delay On		
+Map	Button 9		Reverb On		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Audiomatic			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Volume		
+Map	Fader 2		Input Gain		
+Map	Fader 3		Preset		
+Map	Fader 4		Transform		
+Map	Fader 5		Dry Wet		
+Map	Button 1		Enabled		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.MasterCompressor			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Mix		
+Map	Fader 2		Input Gain		
+Map	Fader 3		Threshold		
+Map	Fader 4		Ratio		
+Map	Fader 5		Attack		
+Map	Knob 1		Release		
+Map	Knob 2		Make-Up Gain		
+Map	Button 1		Enabled		
+Map	Button 2		Sidechain		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.ChannelDynamics			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Mix		
+Map	Fader 2		Input Gain		
+Map	Fader 3		Comp Ratio		
+Map	Fader 4		Comp Threshold		
+Map	Fader 5		Comp Release		
+Map	Fader 7		Gate Hold		
+Map	Fader 8		Gate Range		
+Map	Fader 9		Gate Threshold		
+Map	Fader 10		Gate Release		
+Map	Button 1		Enabled		
+Map	Button 2		Comp On		
+Map	Button 3		Comp Peak On		
+Map	Button 4		Comp Fast On		
+Map	Button 6		Gate On		
+Map	Button 7		Gate Exp On		
+Map	Button 8		Gate Fast On		
+Map	Button 9		Sidechain		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.ChannelEQ			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Gain		
+Map	Fader 2		HPF Frequency		
+Map	Fader 3		LPF Frequency		
+Map	Fader 4		LF Gain		
+Map	Fader 5		LF Frequency		
+Map	Fader 7		LMF Gain		
+Map	Fader 8		LMF Q		
+Map	Fader 9		LMF Frequency		
+Map	Knob 1		HMF Gain		
+Map	Knob 2		HMF Q		
+Map	Knob 3		HMF Frequency		
+Map	Knob 5		HF Gain		
+Map	Knob 6		HF Frequency		
+Map	Button 1		HPF On		
+Map	Button 2		LPF On		
+Map	Button 3		LF Bell On		
+Map	Button 4		E Mode On		
+Map	Button 5		HF Bell On		
+					
+					
+Scope	Propellerheads	Combinator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Pitch Bend		Pitch Bend
+Map	Modulation		Mod Wheel
+Map	Button 4		Select Previous Patch
+Map	Button 5		Select Next Patch
+Map	Button 16		Bypass All FX
+Map	Knob 1		Rotary 3		
+Map	Knob 2		Rotary 4		
+Map	Knob 3		Rotary 5		
+Map	Knob 4		Rotary 6		
+Map	Knob 5		Rotary 7		
+Map	Knob 6		Rotary 8		
+Map	Knob 7		Rotary 9		
+Map	Knob 8		Rotary 10		
+Map	Knob 9		Rotary 11		
+Map	Knob 10		Rotary 12		
+Map	Knob 11		Rotary 13		
+Map	Knob 12		Rotary 14		
+Map	Knob 13		Rotary 15		
+Map	Knob 14		Rotary 16		
+Map	Knob 15		Rotary 17		
+Map	Knob 16		Rotary 18		
+Map	Button 1		Button 1		
+Map	Button 2		Button 2		
+Map	Button 3		Button 3		
+Map	Button 6		Button 4		
+Map	Button 7		Button 5		
+Map	Button 8		Button 6		
+Map	Button 9		Button 7		
+Map	Button 10		Button 8		
+Map	Button 12		Button 9		
+Map	Button 13		Button 10		
+Map	Button 14		Button 11		
+Map	Button 15		Button 12		
+Map	Combi X		Rotary 1		
+Map	Combi Y		Rotary 2
+Map	Fader 1		Master Level	
+					
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Modulation		Mod Wheel		
+Map	Fader 2		Manual Velocity		
+Map	Fader 3		Octave Shift		
+Map	Fader 4		Mode		
+Map	Fader 5		Octave		
+Map	Knob 2		Insert		
+Map	Knob 3		Rate		
+Map	Knob 4		Gate Length		
+Map	Button 1		Arpeggiator Enable		
+Map	Button 2		Hold		
+Map	Button 3		Sync		
+Map	Button 4		Pattern Length Down		
+Map	Button 5		Pattern Length Up		
+					
+					
+Scope	Propellerheads	Mixer 14:2			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Master Level		
+Map	Fader 2		Channel 1 Level		
+Map	Fader 3		Channel 2 Level		
+Map	Fader 4		Channel 3 Level		
+Map	Fader 5		Channel 4 Level		
+Map	Fader 7		Channel 5 Level		
+Map	Fader 8		Channel 6 Level		
+Map	Fader 9		Channel 7 Level		
+Map	Fader 10		Channel 8 Level		
+Map	Fader 12		Channel 9 Level		
+Map	Fader 13		Channel 10 Level		
+Map	Fader 14		Channel 11 Level		
+Map	Fader 15		Channel 12 Level		
+Map	Fader 17		Channel 13 Level		
+Map	Fader 18		Channel 14 Level		
+Map	Knob 1		Channel 1 Pan		
+Map	Knob 2		Channel 2 Pan		
+Map	Knob 3		Channel 3 Pan		
+Map	Knob 4		Channel 4 Pan		
+Map	Knob 5		Channel 5 Pan		
+Map	Knob 6		Channel 6 Pan		
+Map	Knob 7		Channel 7 Pan		
+Map	Knob 8		Channel 8 Pan		
+Map	Knob 9		Channel 9 Pan		
+Map	Knob 10		Channel 10 Pan		
+Map	Knob 11		Channel 11 Pan		
+Map	Knob 12		Channel 12 Pan		
+Map	Knob 13		Channel 13 Pan		
+Map	Knob 14		Channel 14 Pan		
+Map	Button 2		Channel 1 Mute		
+Map	Button 3		Channel 2 Mute		
+Map	Button 4		Channel 3 Mute		
+Map	Button 5		Channel 4 Mute		
+Map	Button 7		Channel 5 Mute		
+Map	Button 8		Channel 6 Mute		
+Map	Button 9		Channel 7 Mute		
+Map	Button 10		Channel 8 Mute		
+Map	Button 12		Channel 9 Mute		
+Map	Button 13		Channel 10 Mute		
+Map	Button 14		Channel 11 Mute		
+Map	Button 15		Channel 12 Mute		
+Map	Button 17		Channel 13 Mute		
+Map	Button 18		Channel 14 Mute		
+					
+					
+Scope	Propellerheads	Line Mixer 6:2			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 1		Master Level		
+Map	Fader 2		Channel 1 Level		
+Map	Fader 3		Channel 2 Level		
+Map	Fader 4		Channel 3 Level		
+Map	Fader 5		Channel 4 Level		
+Map	Fader 7		Channel 5 Level		
+Map	Fader 8		Channel 6 Level		
+Map	Knob 1		Channel 1 Pan		
+Map	Knob 2		Channel 2 Pan		
+Map	Knob 3		Channel 3 Pan		
+Map	Knob 4		Channel 4 Pan		
+Map	Knob 5		Channel 5 Pan		
+Map	Knob 6		Channel 6 Pan		
+Map	Button 2		Channel 1 Mute		
+Map	Button 3		Channel 2 Mute		
+Map	Button 4		Channel 3 Mute		
+Map	Button 5		Channel 4 Mute		
+Map	Button 7		Channel 5 Mute		
+Map	Button 8		Channel 6 Mute		
+					
+					
+Scope	Propellerhead Software	se.propellerheads.Pulsar			
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Fader 2		LFO1 Rate Free		
+Map	Fader 3		LFO1 Rate Synced		
+Map	Fader 4		LFO1 Waveform		
+Map	Fader 5		LFO1 Level		
+Map	Fader 7		LFO2 Rate Free		
+Map	Fader 8		LFO2 Rate Synced		
+Map	Fader 9		LFO2 Waveform		
+Map	Fader 10		LFO2 Level		
+Map	Knob 1		Attack		
+Map	Knob 2		Release		
+Map	Knob 5		LFO1 Env Rate		
+Map	Knob 6		LFO1 Env Level		
+Map	Knob 7		LFO2 Env Rate		
+Map	Knob 8		LFO2 Env Level		
+Map	Button 1		Trig		
+Map	Button 2		LFO1 Env Sync		
+Map	Button 3		LFO1 Tempo Sync		
+Map	Button 4		Sync LFO1 to LFO2		
+Map	Button 5		LFO2 Enabled		
+Map	Button 6		LFO2 Tempo Sync		
+Map	Button 7		LFO2 Triggers Envelope		
+
+
+Scope	Propellerhead Software	se.propellerheads.BeatMap
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	Fader 1		Beat Map
+
+Map	Knob 1		Kick Density
+Map	Knob 2		Snare Density
+Map	Knob 3		Hat Density
+Map	Knob 4		Perc Density
+
+Map	Knob 5		Kick Mirror Velocity
+Map	Knob 6		Snare Mirror Velocity
+Map	Knob 7		Hat Mirror Velocity
+Map	Knob 8		Perc Mirror Velocity
+
+Map	Button 4		Select Previous Patch		
+Map	Button 5		Select Next Patch
+
+Scope	Propellerhead Software	se.propellerheads.AcousticGuitarist
+Map	Back Button		Select Previous Patch		
+Map	Forward Button		Select Next Patch		
+Map	Fader 1		Volume		
+Map	Fader 2		Position		
+Map	Fader 3		Swing		
+Map	Fader 4		Feel		
+Map	Fader 5		Shimmer		
+Map	Knob 1		Character		
+Map	Knob 2		Style		
+Map	Knob 3		Attack		
+Map	Knob 4		Key		
+Map	Button 1		Type		
+Map	Button 2		Fret Noise		
+Map	Button 3		Low Tune		
+Map	Button 4		Latch		
+Map	Button 5		Doubling		
