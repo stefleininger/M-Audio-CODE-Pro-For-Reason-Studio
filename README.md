@@ -4,6 +4,8 @@ Codec de surface de contrôle personnalisé (**Lua Remote**) et fichier de mappa
 
 ---
 
+[Documentation](https://stefleininger.github.io/code-pro)
+
 ## Fonctionnalités et améliorations apportées
 
 ### 1. Retour d'état visuel par LED via SysEx (`port = 2`)
